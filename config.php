@@ -6,5 +6,3 @@ $fecha = strtoupper($fecha);
 /**Prueba de comentario */
 
 /** prueba de otro comentario  */
-
-/** prueba de cambio */
