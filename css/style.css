@@ -1,0 +1,656 @@
+
+
+
+
+.content-1-3 .services-wrapper .icon
+{
+    height: 175px;
+    width: 175px;
+    max-width: 100%;
+    border-radius: 50%;
+    -o-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    margin: 0 auto 50px;
+}
+
+.bg-crete
+{
+    background-color: #7D8A2E !important;
+}
+
+.content-1-3 .services-wrapper .icon span
+{
+    line-height: 175px;
+    color: #fff;
+    font-size: 55px;
+}
+
+html,
+body,
+{
+    height: 100%;
+}
+
+.fade-carousel
+{
+    position: relative;
+    height: 65vh;
+}
+
+.fade-carousel .carousel-inner .item
+{
+    opacity: 0;
+    transition-property: opacity;
+    -webkit-transition: opacity 3s;
+    -moz-transition: opacity 3s;
+    -ms-transition: opacity 3s;
+    -o-transition: opacity 3s;
+    transition: opacity 3s;
+}
+
+.fade-carousel .carousel-inner .active
+{
+    opacity: 1;
+}
+
+.fade-carousel .carousel-inner .active.left
+{
+    left: 0;
+    opacity: 0;
+    z-index: 2;
+}
+
+.fade-carousel .carousel-inner .active.right
+{
+    left: 0;
+    opacity: 1;
+    z-index: 1;
+}
+
+.fade-carousel .carousel-inner .next.left,
+.fade-carousel .carousel-inner .prev.right
+{
+    opacity: 1;
+}
+
+.fade-carousel .carousel-control
+{
+    z-index: 2;
+}
+
+.fade-carousel .carousel-inner .item
+{
+    height: 90vh;
+}
+
+.hero
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0px 2px 3px rgba(0,0,0,0.75);
+    -webkit-transform: translate3d(-50%,-50%,0);
+    -moz-transform: translate3d(-50%,-50%,0);
+    -ms-transform: translate3d(-50%,-50%,0);
+    -o-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+}
+
+.hero h1
+{
+    font-size: 4em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.curso-salud h1
+{
+    background-color: rgba(255, 108, 0, 0.59);
+    color: #892C2C;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0px 2px 2px rgba(155, 77, 19, 0.8);
+    width: 100%;
+}
+
+.jumbotron
+{
+    background: #ffffff;
+    border: 2px solid #dcddde;
+    padding: 0px 20px 0px 20px;
+}
+
+.oferta_fecha_texto
+{
+    padding: 1px 0px 4px 15px;
+    margin-left: -17px;
+    border-left: 5px solid #F5876E;
+    float: left;
+}
+
+.temas
+{
+    border-left: 5px solid #F5876E;
+}
+
+
+
+.egresado
+{
+    border-left: 5px solid #001f3f;
+    width: 100%;
+    }
+
+.oferta_fecha_fecha
+{
+    color: #505050;
+    float: left;
+    padding: 3px 0px 0px 38px;
+    width: 130px;
+    font-weight: normal;
+}
+
+.top-content
+{
+    background: #ffffff;
+    border: 1px solid #dcddde;
+    padding: 0 11px 11px 11px;
+    position: relative;
+    clear: both;
+    overflow: hidden;
+    margin: 5px;
+    margin-top: 30px;
+    -webkit-animation: fadein 2.5s;
+    -moz-animation: fadein 2.5s;
+    -ms-animation: fadein 2.5s;
+    -o-animation: fadein 2.5s;
+    animation: fadein 2.5s;
+}
+
+.left-content
+{
+    float: left;
+    width: 600px;
+    background: #ffffff;
+    padding: 0px 0px 11px 0px;
+    margin: 5px;
+}
+
+.right-content
+{
+    float: right;
+    width: 45%;
+    background: #ffffff;
+    padding: 0px 0px 11px 0px;
+    margin: 5px;
+    margin-right: 19px;
+}
+
+.curso {opacity:0;-webkit-transition:opacity .15s linear;-o-transition:opacity .15s linear;transition:opacity .15s linear;opacity:1;}
+
+.curso h3
+{
+    color: #e06868;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'LatoLight', sans-serif;
+}
+
+.resumen p
+{
+    color: #aa9;
+    font-size: 1.3em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+.fade-carousel .carousel-inner .item .hero
+{
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+    -moz-transition: 2s all ease-in-out .1s;
+    -ms-transition: 2s all ease-in-out .1s;
+    -o-transition: 2s all ease-in-out .1s;
+    transition: 2s all ease-in-out .1s;
+}
+
+.fade-carousel .carousel-inner .item.active .hero
+{
+    opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+    -moz-transition: 2s all ease-in-out .1s;
+    -ms-transition: 2s all ease-in-out .1s;
+    -o-transition: 2s all ease-in-out .1s;
+    transition: 2s all ease-in-out .1s;
+}
+
+.btn.btn-lg
+{
+    padding: 10px 40px;
+    color: #f5f5f5;
+    background-color: #008270;
+    border-color: #008270;
+}
+
+.btn.btn-hero,
+.btn.btn-hero:hover,
+.btn.btn-hero:focus
+{
+    color: #f5f5f5;
+    background-color: #008270;
+    border-color: #008270;
+    outline: none;
+    margin: 20px auto;
+}
+
+.fade-carousel .slides .slide-1,
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3,
+.fade-carousel .slides .slide-4,
+.fade-carousel .slides .slide-5,
+.fade-carousel .slides .slide-6
+{
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.fade-carousel .slides .slide-1
+{
+    background-image: url('../images/instituto/1-min.png');
+    opacity: 0.6;
+    box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.6);
+}
+
+.fade-carousel .slides .slide-2
+{
+    background-image: url('../images/mecanica.png');
+    opacity: 0.6;
+    box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.6);
+}
+
+.fade-carousel .slides .slide-3
+{
+    background-image: url('../images/asistente-dental.png');
+    opacity: 0.6;
+    box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.6);
+}
+
+.fade-carousel .slides .slide-4
+{
+    background-image: url('../images/auxiliar.png');
+    opacity: 0.6;
+    box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.6);
+}
+
+.fade-carousel .slides .slide-5
+{
+    background-image: url('../images/aa-min.jpg');
+    opacity: 0.6;
+    box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.6);
+}
+
+.fade-carousel .slides .slide-6
+{
+    background-image: url('../images/secretariado.png');
+    opacity: 0.6;
+    box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.6);
+}
+
+@media screen and (min-width:980px)
+{
+    .hero
+    {
+        width: 980px;
+    }
+}
+
+@media screen and (max-width:640px)
+{
+    .hero h1
+    {
+        font-size: 35px;
+    }
+}
+
+@media (max-width:639px)
+{
+    .separador
+    {
+        background-image: url('../images/instituto/1.png');
+        background-size: 10%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 0em 3cm;
+    }
+}
+
+.separador
+{
+    margin-top: 33px;
+    width: 100%;
+    height: 134px;
+}
+
+.top-texto
+{
+    background-color: rgba(199, 199, 210, 0.5);
+    color: #050000;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0px 2px 3px rgba(0,0,0,0.75);
+    width: 100%;
+}
+
+.top-texto p
+{
+    color: #0F3E11E6;
+}
+
+#imagen-logo
+{
+    display: block;
+    margin: auto;
+    width: 10%;
+    margin-top: 89px;
+}
+
+@media (max-width:639px)
+{
+    .content-1-1 .container
+    {
+        margin: 10px 10px 0px 0px;
+    }
+    .content-1-1 h1
+    {
+        font-size: 18px;
+    }
+    .content-1-1 h1
+    {
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+    #imagen-logo img
+    {
+        width: 15%;
+    }
+}
+
+.separador
+{
+    line-height: 50px;
+    background-image: url("../images/instituto/instituto-portada.png");
+    */background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 0px;
+    background-attachment: local;
+    background-size: cover;
+    height: 300px;
+}
+
+.panel-body p
+{
+    text-align: left;
+    padding: 8px 8px;
+}
+
+.detalle
+{
+    margin: 0px 0px 0px -30px;
+}
+
+@media (max-width:479px)
+{
+    .instalaciones
+    {
+        margin-bottom: 12px;
+        padding-bottom: 3px;
+    }
+    .curso h3
+    {
+        text-align: center;
+    }
+    .right-content
+    {
+        background: #ffffff;
+        padding: 0 11px 11px 11px;
+        position: relative;
+        clear: both;
+        overflow: hidden;
+        margin: 5px;
+        margin-top: 30px;
+        width: 100%;
+        -webkit-animation: fadein 2.5s;
+        -moz-animation: fadein 2.5s;
+        -ms-animation: fadein 2.5s;
+        -o-animation: fadein 2.5s;
+        animation: fadein 2.5s;
+    }
+}
+
+.left-content
+{
+    background: #ffffff;
+    padding: 0 11px 11px 11px;
+    position: relative;
+    clear: both;
+    overflow: hidden;
+    margin: 5px;
+    margin-top: 30px;
+    width: 100%;
+    -webkit-animation: fadein 2.5s;
+    -moz-animation: fadein 2.5s;
+    -ms-animation: fadein 2.5s;
+    -o-animation: fadein 2.5s;
+    animation: fadein 2.5s;
+}
+
+.street-view
+{
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.street-view iframe
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.google-map
+{
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.google-map iframe
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.contacto-form
+{
+    width: 100%;
+    padding-top: 20px;
+    background: linear-gradient(#ECDDDF80, #A5B4B2);
+}
+
+.curso-detalle
+{
+    position: static;
+    left: 35px;
+    right: 28px;
+    top: 18px;
+    bottom: 15px;
+    z-index: 16;
+    border: 18px;
+    padding-left: 61px;
+    margin: 12px 6px 0px 4px;
+}
+
+@media (max-width:479px)
+{
+    .panel-group
+    {
+        margin-top: 13px;
+        margin-right: 11px;
+    }
+    .panel-group
+    {
+        margin-top: 13px;
+        margin-right: -27px;
+        margin-left: 1px;
+    }
+    .panel-group2
+    {
+        margin-top: 13px;
+        margin-right: -27px;
+        margin-left: 1px;
+    }
+    .oferta_fecha_fecha
+    {
+        font-weight: bold;
+        text-align: left;
+        width: 100%;
+        margin-top: -13px;
+        margin-bottom: 1px;
+    }
+    .oferta_fecha_texto
+    {
+        margin-top: -12px;
+    }
+    .resumen p
+    {
+        text-align: center;
+    }
+}
+
+.duracion-tiempo
+{
+    text-align: left;
+}
+
+@media (max-width:479px)
+{
+    .em
+    {
+        text-align: center;
+    }
+}
+
+#logo-cabecera
+{
+    margin-left: -41px;
+    margin-top: -12px;
+}
+
+.parallax
+{
+}
+
+@media (max-width:479px)
+{
+    .panel-group .panel
+    {
+        margin-top: 13px;
+        margin-right: 17px;
+        margin-left: -5px;
+    }
+    #fundador1
+    {
+        width: 100%;
+        height: 100%;
+        margin-left: 6px;
+    }
+    .separador
+    {
+        width: 100%;
+        height: 30%;
+    }
+    #imagen-logo
+    {
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+#control-derecha
+{
+    top: 50%
+}
+
+#control-izquierda
+{
+    top: 50%
+}
+
+.detalle-direccion
+{
+    margin-left: 10px;
+}
+
+
+.footer-1-2 .brand-img
+{
+    margin: 0 auto;
+    width: 120px;
+}
+
+.footer-direccion
+{
+    color: white;   
+}
+
+.direccion
+{
+    top:-21px;
+}
+
+#telefono-footer
+{
+    margin-left: -17px;
+}
+
+.logo-footer
+{
+    width: 100px;
+    margin-left: 11px;
+}
+
+#footer-detalle
+{
+    color: #008270;
+    background-color: #008270;
+    border-color: #008270;
+    
+    border: 0;
+}
+
+.institucional-imagen{
+    border: 5px solid #008270;;
+}

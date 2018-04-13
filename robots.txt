@@ -1,0 +1,2 @@
+Sitemap: http://cifcapacitacion.com.ar/sitemap.xml
+User-agent: *
