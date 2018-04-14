@@ -19,9 +19,9 @@ include("config.php");
   <link rel="shortcut icon" href="ico/favicon.ico">
   <title>CIF Centro Integral de Formacion</title>
   <!-- Bootstrap core CSS -->
-  <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom styles for this template -->
-  <link href="css/cursos.css" rel="stylesheet">
+  <link href="css/cursos.min.css" rel="stylesheet">
   <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -29,9 +29,9 @@ include("config.php");
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  <link rel="stylesheet" href="components/pg.blocks/css/blocks.css">
-  <link rel="stylesheet" href="components/pg.blocks/css/plugins.css">
-  <link rel="stylesheet" href="components/pg.blocks/css/style-library-1.css">
+  <link rel="stylesheet" href="components/pg.blocks/css/blocks.min.css">
+  <link rel="stylesheet" href="components/pg.blocks/css/plugins.min.css">
+  <link rel="stylesheet" href="components/pg.blocks/css/style-library-1.min.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
   <link href="https://fonts.googleapis.com/css?family=Proza+Libre" rel="stylesheet">
