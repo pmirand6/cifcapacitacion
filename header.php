@@ -15,7 +15,7 @@
     <title>CIF Centro Integral de Formacion</title>
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.mincss" rel="stylesheet">
-    <!-- Custom styles for this template -->
+    
     <link href="css/style.mincss" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
