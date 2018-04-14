@@ -12,4 +12,11 @@ y esta es la prueba de otro commit
 
 esta es la ultima
 
+<<<<<<< HEAD
 me voy a dormir
+=======
+
+desde el laburo
+
+esta es otra prueba con la configuracion
+>>>>>>> 69eefc5bcc73bbdb41bf14f994d18091780d99b9

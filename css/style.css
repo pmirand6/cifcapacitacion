@@ -1,6 +1,10 @@
 
 
-
+	
+.center-column-one{
+    float: none;
+    margin: 0 auto;
+}
 
 .content-1-3 .services-wrapper .icon
 {
