@@ -13,7 +13,7 @@
     />
     <link rel="shortcut icon" href="ico/favicon.ico">
     <title>CIF Centro Integral de Formacion</title>
-    <!-- Bootstrap core CSS -->
+    
     <link href="bootstrap/css/bootstrap.mincss" rel="stylesheet">
     
     <link href="css/style.mincss" rel="stylesheet">
